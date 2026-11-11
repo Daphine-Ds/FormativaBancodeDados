@@ -206,7 +206,9 @@ VALUES: indica os valores que serão inseridos.
 
 -- MISSÃO B --
 
-SELECT Nome, Email, Telefone FROM Clientes;
+SELECT Nome, Email, Telefone
+FROM Clientes
+ORDER BY Nome ASC;
 
 SELECT TOP 5 NomePlano, ValorMensal
 FROM Planos
